@@ -1,0 +1,24 @@
+{
+    "id": "92FC11C5",
+    "path": "~/ESIEA/4A-TC-41/Rstudio Shiny Golem/firstGolemApp/R/mod_name_of_module1.R",
+    "project_path": "R/mod_name_of_module1.R",
+    "type": "r_source",
+    "hash": "3794880035",
+    "contents": "",
+    "dirty": false,
+    "created": 1614453271815.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "cursorPosition": "24,18",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1614454773,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1614454773200,
+    "read_only": false,
+    "read_only_alternatives": []
+}

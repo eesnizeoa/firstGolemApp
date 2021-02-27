@@ -1,0 +1,24 @@
+{
+    "id": "DEA8BC7F",
+    "path": "~/ESIEA/4A-TC-41/Rstudio Shiny Golem/firstGolemApp/tests/testthat/test-app.R",
+    "project_path": "tests/testthat/test-app.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1614454178427.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1614454963,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1614454963825,
+    "read_only": false,
+    "read_only_alternatives": []
+}

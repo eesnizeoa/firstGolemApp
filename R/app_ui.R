@@ -10,7 +10,12 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("firstGolemApp")
+      h1("firstGolemApp"),
+      mod_name_of_module1_ui("name_of_module1_ui_1"),
+      mod_name_of_module2_ui("name_of_module2_ui_1"),
+      #actionButton("browser", "browser"),
+      #tags$script("$('#browser').hide();")
+      actionButton("alert","browser")
     )
   )
 }
@@ -36,6 +41,8 @@ golem_add_external_resources <- function(){
       app_title = 'firstGolemApp'
     )
     # Add here other external resources
+    # tags$script(src="www/handlers.js")
+    # tags$link(rel="stylesheet", type="text/css", href="www/custom.css")
     # for example, you can add shinyalert::useShinyalert() 
   )
 }
