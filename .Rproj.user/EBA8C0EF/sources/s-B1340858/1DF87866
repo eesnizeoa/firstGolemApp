@@ -1,17 +1,17 @@
 {
-    "id": "612F1B42",
-    "path": "~/ESIEA/4A-TC-41/Rstudio Shiny Golem/firstGolemApp/dev/02_dev.R",
-    "project_path": "dev/02_dev.R",
+    "id": "1DF87866",
+    "path": "~/ESIEA/4A-TC-41/Rstudio Shiny Golem/firstGolemApp/R/run_app.R",
+    "project_path": "R/run_app.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1614452871075.0,
+    "created": 1614457031822.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 13,
     "properties": {
-        "cursorPosition": "57,45",
-        "scrollLine": "29"
+        "cursorPosition": "17,1",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1614450686,
