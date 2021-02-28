@@ -30,6 +30,7 @@ golem::add_module( name = "module_test4")
 golem::add_module( name = "module_title")
 golem::add_module( name = "module_diplay_irisplot")
 golem::add_module( name = "module_diplay_iristable")#if I had more time I would have put in an upload dataset function so that it can work with any dataset
+golem::add_module( name = "module_test_final")
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*

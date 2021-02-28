@@ -10,10 +10,14 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("firstGolemApp"),
-      mod_name_of_module1_ui("name_of_module1_ui_1"),
+      mod_module_title_ui("module_title_ui_1"),
+      mod_module_diplay_irisplot_ui("module_diplay_irisplot_ui_1"),
+      mod_module_diplay_iristable_ui("module_diplay_iristable_ui_1"),
+      mod_module_test_final_ui("module_test_final_ui_1"),
+      
       
       #you could check my failed attempts, I leave them here so I can come back and see if there is something useful
+      #mod_name_of_module1_ui("name_of_module1_ui_1"),
       #mod_name_of_module2_ui("name_of_module2_ui_1"),
       #mod_module_test_ui("module_test_ui_1"),
       #mod_module_test2_ui("module_test2_ui_1"),
@@ -21,7 +25,7 @@ app_ui <- function(request) {
       #mod_module_test4_ui("module_test4_ui_1"),
       #actionButton("browser", "browser"),
       #tags$script("$('#browser').hide();")
-      actionButton("alert","browser")
+      #actionButton("alert","browser")
     )
   )
 }
