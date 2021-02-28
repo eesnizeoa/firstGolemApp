@@ -21,8 +21,8 @@ mod_name_of_module1_ui <- function(id){
 mod_name_of_module1_server <- function(input, output, session){
   ns <- session$ns 
   output$plot <- renderPlot({
-    x <- random_num()
-    plot(iris[,x])
+    #x <- random_num()
+    plot(iris[,-1])
   })
 }
     

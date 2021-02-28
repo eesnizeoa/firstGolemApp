@@ -13,6 +13,8 @@ app_ui <- function(request) {
       h1("firstGolemApp"),
       mod_name_of_module1_ui("name_of_module1_ui_1"),
       mod_name_of_module2_ui("name_of_module2_ui_1"),
+      mod_module_test_ui("module_test_ui_1"),
+      mod_module_test2_ui("module_test2_ui_1"),
       #actionButton("browser", "browser"),
       #tags$script("$('#browser').hide();")
       actionButton("alert","browser")
