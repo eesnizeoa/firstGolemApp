@@ -12,9 +12,13 @@ app_ui <- function(request) {
     fluidPage(
       h1("firstGolemApp"),
       mod_name_of_module1_ui("name_of_module1_ui_1"),
-      mod_name_of_module2_ui("name_of_module2_ui_1"),
-      mod_module_test_ui("module_test_ui_1"),
-      mod_module_test2_ui("module_test2_ui_1"),
+      
+      #you could check my failed attempts, I leave them here so I can come back and see if there is something useful
+      #mod_name_of_module2_ui("name_of_module2_ui_1"),
+      #mod_module_test_ui("module_test_ui_1"),
+      #mod_module_test2_ui("module_test2_ui_1"),
+      #mod_module_test3_ui("module_test3_ui_1"),
+      #mod_module_test4_ui("module_test4_ui_1"),
       #actionButton("browser", "browser"),
       #tags$script("$('#browser').hide();")
       actionButton("alert","browser")
@@ -35,7 +39,10 @@ golem_add_external_resources <- function(){
   add_resource_path(
     'www', app_sys('app/www')
   )
- 
+  add_resource_path(
+    'img', app_sys('app/img')
+  )
+
   tags$head(
     favicon(),
     bundle_resources(

@@ -23,6 +23,13 @@ golem::add_module( name = "name_of_module1" ) # Name of the module
 golem::add_module( name = "name_of_module2" ) # Name of the module
 golem::add_module( name = "module_test")
 golem::add_module( name = "module_test2")
+golem::add_module( name = "module_test3")
+golem::add_module( name = "module_test4")
+
+#here are the true modules for this app
+golem::add_module( name = "module_title")
+golem::add_module( name = "module_diplay_irisplot")
+golem::add_module( name = "module_diplay_iristable")#if I had more time I would have put in an upload dataset function so that it can work with any dataset
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*
